@@ -2,8 +2,11 @@
 
 ## 1. pytorch 概述
 pytorch是facebook 开发的torch（Lua语言）的python版本，于2017年引爆学术界
+
 官方宣传pytorch侧重两类用户：numpy的gpu版、深度学习研究平台
+
 pytorch使用动态图机制，相比于tensorflow最开始的静态图，更为灵活
+
 当前pytorch支持的系统包括：win，linux，macos
 
 ## 2. pytorch基本库
@@ -213,15 +216,15 @@ net.load_state_dict(file)
     1. batch训练
     2. 每隔一段时间，打印验证集loss
     3. 每隔一段时间，存储模型
-```
-for i, batch in enumerate(dataloader):
-         x_batch, y_batch = batch
-         outputs = net(x_batch)
-         loss = criterion(output, target)
-         optimizer.zero_grad()
-         loss.backward()
-         optimizer.step()
-```
+   ```
+   for i, batch in enumerate(dataloader):
+            x_batch, y_batch = batch
+            outputs = net(x_batch)
+            loss = criterion(output, target)
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+   ```
 
  4. 测试
     1. 载入测试数据
