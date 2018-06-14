@@ -211,8 +211,9 @@ net.load_state_dict(file)
                2. 载入模型参数（对于adam等优化器，其参数也需载入)
  3. 训练
     1. batch训练
-
-    ```
+    2. 每隔一段时间，打印验证集loss
+    3. 每隔一段时间，存储模型
+```
 for i, batch in enumerate(dataloader):
          x_batch, y_batch = batch
          outputs = net(x_batch)
@@ -220,10 +221,7 @@ for i, batch in enumerate(dataloader):
          optimizer.zero_grad()
          loss.backward()
          optimizer.step()
-    ```
-
-    2. 每隔一段时间，打印验证集loss
-    3. 每隔一段时间，存储模型
+```
 
  4. 测试
     1. 载入测试数据
