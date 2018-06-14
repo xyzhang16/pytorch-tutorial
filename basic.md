@@ -211,7 +211,7 @@ net.load_state_dict(file)
                2. 载入模型参数（对于adam等优化器，其参数也需载入)
  3. 训练
     1. batch训练
-   ```
+```
 for i, batch in enumerate(dataloader):
          x_batch, y_batch = batch
          outputs = net(x_batch)
