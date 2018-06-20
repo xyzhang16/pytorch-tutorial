@@ -28,6 +28,12 @@ bash
 $ git clone https://github.com/xyzhang16/pytorch-tutorial.git
 $ cd ...
 $ jupyter notebook
+
+or 
+将url地址，如“https://github.com/xyzhang16/pytorch-tutorial/blob/master/basic.ipynb” 
+复制到https://nbviewer.jupyter.org/进行观看
+
+
 ```
 <br/>
 
