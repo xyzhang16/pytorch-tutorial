@@ -2,7 +2,7 @@
 
 -------------------------------------------------------------------------
 
-一个简单的Pytorch教程。开始之前，建议先快速浏览一下[basic.md](https://github.com/xyzhang16/pytorch-tutorial/blob/master/basic.md)或者[官网60分钟简易教程](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html )
+一个简单的Pytorch教程。开始之前，建议先快速浏览一下[basic](https://github.com/xyzhang16/pytorch-tutorial/blob/master/basic.ipynb)或者[官网60分钟简易教程](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html )
 
 <br/>
 
@@ -10,7 +10,7 @@
 ## Table of Content
 
 ### 1. Basics
- - [basic](https://github.com/xyzhang16/pytorch-tutorial/blob/master/basic.md)
+ - [basic](https://github.com/xyzhang16/pytorch-tutorial/blob/master/basic.ipynb)
 
 ### 2. Intermediate
 
@@ -29,17 +29,19 @@ $ git clone https://github.com/xyzhang16/pytorch-tutorial.git
 $ cd ...
 $ jupyter notebook
 
-or 
-将url地址，如“https://github.com/xyzhang16/pytorch-tutorial/blob/master/basic.ipynb” 
+或者：
+
+如果github打不开.ipynb文件
+可将url地址，如“https://github.com/xyzhang16/pytorch-tutorial/blob/master/basic.ipynb” 
 复制到https://nbviewer.jupyter.org/进行观看
 
-
 ```
-<br/>
+
 
 ## Dependencies
  - Python 3.6
  - Pytorch 0.4.0
+
 
 ## Acknowledge
 本教程部分参考了[Yunjey](https://github.com/yunjey/pytorch-tutorial)的工作，在此向其表示感谢。
