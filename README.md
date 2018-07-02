@@ -2,7 +2,7 @@
 
 -------------------------------------------------------------------------
 
-一个简单的Pytorch教程。开始之前，建议先快速浏览一下[basic](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/basic.ipynb)或者[官网60分钟简易教程](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html )
+一个简单的Pytorch教程。开始之前，建议先快速浏览一下[Basic](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/basic.ipynb)或者[官网60分钟简易教程](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html )
 
 <br/>
 
@@ -10,9 +10,13 @@
 ## Table of Content
 
 ### 1. Basics
- - [basic](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/basic.ipynb)
+ - [Basic](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/basic.ipynb)
 
- - [linear regression](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/Linear_regression.ipynb)
+ - [Linear regression](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/Linear_regression.ipynb)
+
+ - [Logistic regression](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/Logistic_regression.ipynb)
+
+ - [Multi layer perceptron](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/Multi_layer_perceptron.ipynb)
 
 ### 2. Intermediate
 
