@@ -18,11 +18,14 @@
 
  - [Multi layer perceptron](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/Multi_layer_perceptron.ipynb)
 
-### 2. Intermediate
+### 2. Advanced
+ - [Convolutional neural network](...)
 
-### 3. Advanced
+ - [Recurrent neural network](...)
 
-### 4. Utilities
+ - [AutoEncoder](...)
+
+ - [Generative adversarial network](...)
 
 
 <br/>
@@ -41,10 +44,6 @@ $ jupyter notebook
 ## Dependencies
  - Python 3.6
  - Pytorch 0.4.0
-
-
-## Acknowledge
-本教程部分参考了[Yunjey](https://github.com/yunjey/pytorch-tutorial)的工作，在此向其表示感谢。
 
 
 
