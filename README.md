@@ -12,6 +12,8 @@
 ### 1. Basics
  - [basic](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/basic.ipynb)
 
+ - [linear regression](https://nbviewer.jupyter.org/github/xyzhang16/pytorch-tutorial/blob/master/Linear_regression.ipynb)
+
 ### 2. Intermediate
 
 ### 3. Advanced
